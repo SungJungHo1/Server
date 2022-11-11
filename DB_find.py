@@ -57,11 +57,11 @@ def Find_AccountBalance(User_Name):
         return AccountBalance
 
 if __name__ == "__main__":
-    # Find_Data("48093112")
+    Find_Data("48093112")
     # Make_Data("nonottlyy")
     # Make_Log("nonottlyy",6666)
     # print(Find_AccountBalance("48093112"))
-    print(Find_Deposit("141046139"))
+    # print(Find_Deposit("141046139"))
     # Days = date.today().isoformat()
     # print("gg")
 

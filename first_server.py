@@ -13,7 +13,7 @@ def mach_UserName():
     temp = request.args.get('name', "")
     check_User = Find_Data(temp)
 
-    return check_User
+    return str(check_User)
 
 @app.route('/Log')
 def Call_Log():
@@ -38,7 +38,7 @@ def Finds_Deposit():
 
     AccountName = request.args.get('name', "")
     UNIX_Time = Find_Deposit(AccountName)
-    return UNIX_Time
+    return str(UNIX_Time)
 
 if __name__ == '__main__':
     # def getHtml():
